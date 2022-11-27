@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="cursor">
+        <p style="display: none">Scroll Me</p>
+      </div>
+      <div class="section1">
+        <div class="navbar">
+          <div class="logo" id="logo">
+            <img
+              src="items/kimarthShrt.svg"
+              alt="KIMARTH"
+              style="display: block"
+            />
+            <img
+              src="items/tabkimarthlogo.svg"
+              alt="KIMARTH"
+              style="display: none"
+            />
+            <img
+              src="items/mobilekimarthshrtlogo.svg"
+              alt="KIMARTH"
+              style="display: none"
+            />
+          </div>
+          <div class="navbarItem" id="navbarItem">
+            <div class="items">
+              <p>INSIDE US</p>
+            </div>
+            <div class="items">
+              <p>HIGHLIGHTS</p>
+            </div>
+            <div class="items">
+              <p>JOIN US</p>
+            </div>
+            <div class="items">
+              <p>GET IN TOUCH</p>
+            </div>
+          </div>
+          <div class="menu">
+            <img src="items/MENU.svg" alt="MENU" />
+          </div>
+          <div class="MenuNavbarItem">
+            <div class="MenuItems">
+              <p>INSIDE US</p>
+            </div>
+            <div class="MenuItems">
+              <p>HIGHLIGHTS</p>
+            </div>
+            <div class="MenuItems">
+              <p>JOIN US</p>
+            </div>
+            <div class="MenuItems">
+              <p>GET IN TOUCH</p>
+            </div>
+          </div>
+        </div>
+        <div class="contentWrapper">
+          <div class="content">
+            <div class="main">
+              <div id="container">
+                <span id="text1">SEARCH</span>
+                <span id="text2">FOR</span>
+              </div>
+              <svg id="filters">
+                <defs>
+                  <filter id="threshold">
+                    <feColorMatrix
+                      in="SourceGraphic"
+                      type="matrix"
+                      values="1 0 0 0 0
+                                                    0 1 0 0 0
+                                                    0 0 1 0 0
+                                                    0 0 0 255 -140"
+                    ></feColorMatrix>
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="kimarthText">
+            <div class="bigLogo">
+              <img src="items/kimarthLong.svg" alt="KIMARTH" />
+            </div>
+            <div class="tagline">
+              <p>
+                <span></span> Your Search For Best School,Ends With Us
+                <span></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section2">
+        <div class="mission">
+          <div class="missionImg">
+            <img
+              src="items/desktop mission.png"
+              alt=""
+              id="missionPng"
+              class="top-slide"
+            />
+          </div>
+          <div class="missionBox top-slide">
+            <div class="box">
+              <div class="heading">
+                <p>
+                  MISSION <br />
+                  <span> &amp; VISION </span>
+                </p>
+              </div>
+              <div class="para">
+                <p>
+                  <span> Empower small schools </span> and students Use
+                  Technology and data to build India’s
+                  <span> largest School chain </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mission about">
+          <div class="missionImg aboutImg">
+            <img
+              src="items/desktop kimarth.png"
+              id="aboutPng"
+              alt="kimarth"
+              class="top-slide"
+            />
+          </div>
+          <div class="missionBox aboutBox top-slide" id="aboutBox">
+            <div class="box">
+              <div class="heading">
+                <p>ABOUT US</p>
+              </div>
+              <div class="para">
+                <p>
+                  <span> Empower small schools </span> and students Use
+                  Technology and data to build India’s
+                  <span> largest School chain </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section3">
+        <div class="heading">
+          <p class="mainHeading">
+            <span>
+              <img src="items/Line.svg" alt="" />
+            </span>
+            INSIDE US
+            <span>
+              <img src="items/Line.svg" alt="" />
+            </span>
+          </p>
+        </div>
+        <div class="student">
+          <div class="studentimg right-slide">
+            <img src="items/desktop student.png" alt="" />
+          </div>
+          <div class="text left-slide">
+            <div class="studentHeading">
+              <p>
+                STUDY FOR <span> FREE </span> PAY,<br />
+                <span>AFTER PLACEMENT </span>
+              </p>
+            </div>
+            <div class="studentText">
+              <p>
+                We strongly belive money should only be the outcome our service
+                to society, thus we provide your child free education and will
+                charge only if <span> he/she gets placed </span>.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="student study">
+          <div class="studentimg studyImg left-slide">
+            <img src="items/desktop study.png" alt="study" />
+          </div>
+          <div class="text Text2 right-slide">
+            <div class="studentHeading studyHeading">
+              <p>
+                TEACHER WILL <span>NEVER,</span><br />
+                BE<span> SAME AGAIN </span>
+              </p>
+            </div>
+            <div class="studentText studyText">
+              <p>
+                To prepare the child for future, we belief student's learning
+                environment should reflect that in itself first. Thus we
+                introduce
+                <span> 3+3, online + offline learning </span> method to help
+                child acknowledge the changes of future and prepare herself for
+                the same.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="student teacher">
+          <div class="studentimg teacherImg right-slide">
+            <img src="items/desktop teacher.png" alt="" />
+          </div>
+          <div class="text Text3 left-slide">
+            <div class="studentHeading studentHeading">
+              <p>
+                <span>NEW</span>CONCEPT OF <br /><span>3-1-1</span> LEARNING
+              </p>
+            </div>
+            <div class="studentText teacherText">
+              <p>
+                To prepare the child for future, we belief student's learning
+                environment should reflect that in itself first. Thus we
+                introduce
+                <span> 3+3, online + offline learning </span> method to help
+                child acknowledge the changes of future and prepare herself for
+                the same.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section4">
+        <div class="container">
+          <div class="textHeading">
+            <p>
+              <span class="line">
+                <img src="items/Line.svg" alt="" />
+              </span>
+              <span class="kimarth"><span>KIMARTH </span>LEARNING</span>
+              <span class="line">
+                <img src="items/Line.svg" alt="" />
+              </span>
+            </p>
+          </div>
+          <div class="text top-slide">
+            <p>
+              To prepare the child for future, we belief student's learning
+              environment should reflect that in itself first. Thus we introduce
+              3+3, online + offline learning method to help child acknowledge
+              the changes of future and prepare herself for the same. Here child
+              will get both the environment of regular schooling for 3 day and
+              for next 3 day she will be guided online from the comfort of her
+              home.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section5">
+        <div class="headingContainer">
+          <span class="img">
+            <img src="items/Line.svg" alt="" />
+          </span>
+          <span class="heading"> WHY TO CHOOSE US?? </span>
+          <span class="img">
+            <img src="items/Line.svg" alt="" />
+          </span>
+        </div>
+        <div class="outerContainer">
+          <div class="overflow">
+            <div class="mainContainer first">
+              <div class="textContainer right-slide">
+                <div class="textHeading">
+                  <p>lifetime Access</p>
+                </div>
+                <div class="textpara">
+                  <p>
+                    With our self-paced,<span>
+                      digital learning experience and centeralized teaching and
+                      examination system
+                    </span>
+                    , teachers will now have more time to spend with students,
+                    mentoring and providing personalized attention like never
+                    before.
+                  </p>
+                </div>
+              </div>
+              <div class="imgContainer left-slide">
+                <img src="items/keychainI.png" alt="" />
+              </div>
+            </div>
+            <div class="mainContainer">
+              <div class="textContainer">
+                <div class="textHeading">
+                  <p>lifetime Access</p>
+                </div>
+                <div class="textpara">
+                  <p>
+                    With our self-paced,<span>
+                      digital learning experience and centeralized teaching and
+                      examination system
+                    </span>
+                    , teachers will now have more time to spend with students,
+                    mentoring and providing personalized attention like never
+                    before.
+                  </p>
+                </div>
+              </div>
+              <div class="imgContainer">
+                <img src="items/bachelorI.png" alt="" />
+              </div>
+            </div>
+            <div class="mainContainer">
+              <div class="textContainer">
+                <div class="textHeading">
+                  <p>lifetime Access</p>
+                </div>
+                <div class="textpara">
+                  <p>
+                    With our self-paced,<span>
+                      digital learning experience and centeralized teaching and
+                      examination system
+                    </span>
+                    , teachers will now have more time to spend with students,
+                    mentoring and providing personalized attention like never
+                    before.
+                  </p>
+                </div>
+              </div>
+              <div class="imgContainer">
+                <img src="items/certificateI.png" alt="" />
+              </div>
+            </div>
+            <div class="mainContainer">
+              <div class="textContainer">
+                <div class="textHeading">
+                  <p>lifetime Access</p>
+                </div>
+                <div class="textpara">
+                  <p>
+                    With our self-paced,<span>
+                      digital learning experience and centeralized teaching and
+                      examination system
+                    </span>
+                    , teachers will now have more time to spend with students,
+                    mentoring and providing personalized attention like never
+                    before.
+                  </p>
+                </div>
+              </div>
+              <div class="imgContainer">
+                <img src="items/crownI.png" alt="" />
+              </div>
+            </div>
+            <div class="mainContainer last">
+              <div class="textContainer">
+                <div class="textHeading">
+                  <p>lifetime Access</p>
+                </div>
+                <div class="textpara">
+                  <p>
+                    With our self-paced,<span>
+                      digital learning experience and centeralized teaching and
+                      examination system
+                    </span>
+                    , teachers will now have more time to spend with students,
+                    mentoring and providing personalized attention like never
+                    before.
+                  </p>
+                </div>
+              </div>
+              <div class="imgContainer">
+                <img src="items/supportI.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section6">
+        <div class="section6Heading">
+          <span class="img">
+            <img src="items/Line.svg" />
+          </span>
+          <span class="heading">
+            <p>
+              <span> HOW TO </span>
+
+              JOIN US ??
+            </p>
+          </span>
+          <span class="img">
+            <img src="items/Line.svg" />
+          </span>
+        </div>
+        <div class="joinContainer">
+          <div class="desktop">
+            <img src="items/steps.png" />
+          </div>
+          <div class="tab">
+            <img src="items/stepsTab.png" />
+          </div>
+          <div class="mobile">
+            <div class="pic">
+              <img src="items/stepsM1.png" alt="" />
+            </div>
+            <div class="pic">
+              <img src="items/stepsM2.png" alt="" />
+            </div>
+            <div class="pic">
+              <img src="items/stepsM3.png" alt="" />
+            </div>
+            <div class="pic">
+              <img src="items/stepsM4.png" alt="" />
+            </div>
+            <div class="pic">
+              <img src="items/stepsM5.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section7">
+        <div class="section7Heading">
+          <span class="img">
+            <img src="items/Line.svg" />
+          </span>
+          <span class="heading">
+            <p>
+              <span>THOUGHTS OF </span>
+              IMPORTANT PERSONALITIES
+            </p>
+          </span>
+          <span class="img">
+            <img src="items/Line.svg" />
+          </span>
+        </div>
+        <div class="swiper1">
+          <div class="sectionCards">
+            <div class="cards">
+              <div class="quotes">
+                <img src="items/carbon_quotes.svg" alt="" />
+              </div>
+              <div class="para">
+                <p>
+                  We need technology in every classroom and in every student and
+                  teacher’s hand, because it is the pen and paper of our time,
+                  and it is the lens through which we experience much of our
+                  world.
+                </p>
+              </div>
+              <div class="img">
+                <img src="items/davidwarlick.png" alt="" />
+              </div>
+              <div class="name">
+                <p>David Warlicks</p>
+              </div>
+              <div class="media">
+                <div class="twitter">
+                  <img src="items/facebook.svg" alt="" />
+                </div>
+                <div class="Insta">
+                  <img src="items/instagram.svg" alt="" />
+                </div>
+                <div class="linkedIn">
+                  <img src="items/linkedIn.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="quotes">
+                <img src="items/carbon_quotes.svg" alt="" />
+              </div>
+              <div class="para">
+                <p>
+                  We need technology in every classroom and in every student and
+                  teacher’s hand, because it is the pen and paper of our time,
+                  and it is the lens through which we experience much of our
+                  world.
+                </p>
+              </div>
+              <div class="img">
+                <img src="items/davidwarlick.png" alt="" />
+              </div>
+              <div class="name">
+                <p>David Warlicks</p>
+              </div>
+              <div class="media">
+                <div class="twitter">
+                  <img src="items/facebook.svg" alt="" />
+                </div>
+                <div class="Insta">
+                  <img src="items/instagram.svg" alt="" />
+                </div>
+                <div class="linkedIn">
+                  <img src="items/linkedIn.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="quotes">
+                <img src="items/carbon_quotes.svg" alt="" />
+              </div>
+              <div class="para">
+                <p>
+                  We need technology in every classroom and in every student and
+                  teacher’s hand, because it is the pen and paper of our time,
+                  and it is the lens through which we experience much of our
+                  world.
+                </p>
+              </div>
+              <div class="img">
+                <img src="items/davidwarlick.png" alt="" />
+              </div>
+              <div class="name">
+                <p>David Warlicks</p>
+              </div>
+              <div class="media">
+                <div class="twitter">
+                  <img src="items/facebook.svg" alt="" />
+                </div>
+                <div class="Insta">
+                  <img src="items/instagram.svg" alt="" />
+                </div>
+                <div class="linkedIn">
+                  <img src="items/linkedIn.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section8">
+        <div class="talk">
+          <span>
+            <img src="items/let'sLine.svg" alt="" />
+          </span>
+          <div class="text" id="letTalk">
+            <p><a href="mailto:jharaghav987@gmail.com">LET'S TALK</a></p>
+          </div>
+        </div>
+        <div class="detail">
+          <div class="gmail">
+            <p>jharaghav987@gmail.com</p>
+            <p>GMAIL ID :</p>
+          </div>
+          <div class="ceo gmail">
+            <p>RAGHAV JHA</p>
+            <p>FOUNDER & CEO :</p>
+          </div>
+          <div class="number gmail">
+            <p>86991-36556</p>
+            <p>PHONE NUMBER :</p>
+          </div>
+        </div>
+        <div class="media gmail">
+          <span>
+            <img src="items/let'sLine.svg" alt="" />
+          </span>
+          <div class="mediaContainer">
+            <div class="twitter">
+              <img src="items/facebook.svg" alt="" />
+            </div>
+            <div class="Insta">
+              <img src="items/instagram.svg" alt="" />
+            </div>
+            <div class="linkedIn">
+              <img src="items/linkedIn.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="javascriptSection1.js"></script>
+    <script src="javascriptSection5.js"></script>
+  </body>
+</html>
